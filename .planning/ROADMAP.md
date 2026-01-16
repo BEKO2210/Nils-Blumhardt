@@ -7,7 +7,7 @@ Mobile-First One-Pager für einen Malerbetrieb: Von der Grundstruktur über inte
 ## Phases
 
 - [x] **Phase 1: Foundation & Layout** - HTML-Struktur und CSS-Designsystem
-- [ ] **Phase 2: Features & Content** - Interaktive Elemente und Inhalte
+- [x] **Phase 2: Features & Content** - Interaktive Elemente und Inhalte
 - [ ] **Phase 3: Polish & Compliance** - SEO, Rechtliches, Performance
 
 ## Phase Details
@@ -40,8 +40,8 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 02-01: Contact form with Formspree
-- [ ] 02-02: Gallery with lightbox and interactive elements
+- [x] 02-01: Contact form with Formspree
+- [x] 02-02: Gallery with lightbox and interactive elements
 
 ### Phase 3: Polish & Compliance
 **Goal**: Website ist SEO-optimiert, rechtlich konform und performant
@@ -63,5 +63,5 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Layout | 1/1 | Complete | 2026-01-16 |
-| 2. Features & Content | 0/2 | Not started | - |
+| 2. Features & Content | 2/2 | Complete | 2026-01-16 |
 | 3. Polish & Compliance | 0/1 | Not started | - |

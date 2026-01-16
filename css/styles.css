@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 img,
@@ -195,6 +197,17 @@ address {
   border: none;
   cursor: pointer;
   padding: var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  transition: background-color var(--transition-fast);
+}
+
+.header__menu-toggle:hover {
+  background-color: var(--color-bg-alt);
+}
+
+.header__menu-toggle:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 .header__menu-icon {
@@ -240,6 +253,11 @@ address {
 
 .header__nav-link:hover {
   color: var(--color-primary);
+}
+
+.header__nav-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 /* ======================
@@ -365,6 +383,17 @@ address {
   aspect-ratio: 1;
   border-radius: var(--radius-md);
   overflow: hidden;
+  cursor: pointer;
+  transition: transform var(--transition-normal);
+}
+
+.galerie__item:hover {
+  transform: scale(1.02);
+}
+
+.galerie__item:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 .galerie__placeholder {
@@ -426,6 +455,12 @@ address {
   border-radius: var(--radius-lg);
   padding: var(--spacing-lg);
   box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.review-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .review-card__header {

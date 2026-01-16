@@ -176,14 +176,20 @@
         <p class="section__subtitle">Wir freuen uns auf Ihre Anfrage</p>
         <div class="kontakt__grid">
           <div class="kontakt__form-wrapper">
-            <form class="kontakt__form" action="#" method="POST" aria-label="Kontaktformular">
+            <div class="kontakt__success" role="alert">
+              <span class="kontakt__success-icon" aria-hidden="true">&#10003;</span>
+              Vielen Dank fur Ihre Nachricht! Wir melden uns schnellstmoglich bei Ihnen.
+            </div>
+            <form class="kontakt__form" action="https://formspree.io/f/xyzforms" method="POST" aria-label="Kontaktformular">
+              <input type="hidden" name="_subject" value="Neue Anfrage von blumhardtmaler.de">
+              <input type="hidden" name="_next" value="https://blumhardtmaler.de/#kontakt?success=true">
               <div class="form-group">
                 <label for="name" class="form-label">Name *</label>
                 <input type="text" id="name" name="name" class="form-input" required aria-required="true">
               </div>
               <div class="form-group">
                 <label for="email" class="form-label">E-Mail *</label>
-                <input type="email" id="email" name="email" class="form-input" required aria-required="true">
+                <input type="email" id="email" name="_replyto" class="form-input" required aria-required="true">
               </div>
               <div class="form-group">
                 <label for="telefon" class="form-label">Telefon</label>
@@ -191,7 +197,7 @@
               </div>
               <div class="form-group">
                 <label for="nachricht" class="form-label">Nachricht *</label>
-                <textarea id="nachricht" name="nachricht" class="form-textarea" rows="5" required aria-required="true"></textarea>
+                <textarea id="nachricht" name="message" class="form-textarea" rows="5" required aria-required="true"></textarea>
               </div>
               <button type="submit" class="btn btn--primary btn--full">Nachricht senden</button>
             </form>

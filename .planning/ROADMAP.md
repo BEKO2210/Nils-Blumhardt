@@ -6,7 +6,7 @@ Mobile-First One-Pager für einen Malerbetrieb: Von der Grundstruktur über inte
 
 ## Phases
 
-- [ ] **Phase 1: Foundation & Layout** - HTML-Struktur und CSS-Designsystem
+- [x] **Phase 1: Foundation & Layout** - HTML-Struktur und CSS-Designsystem
 - [ ] **Phase 2: Features & Content** - Interaktive Elemente und Inhalte
 - [ ] **Phase 3: Polish & Compliance** - SEO, Rechtliches, Performance
 
@@ -25,7 +25,7 @@ Mobile-First One-Pager für einen Malerbetrieb: Von der Grundstruktur über inte
 **Plans**: TBD
 
 Plans:
-- [ ] 01-01: HTML structure and CSS design system
+- [x] 01-01: HTML structure and CSS design system
 
 ### Phase 2: Features & Content
 **Goal**: Alle interaktiven Features funktionieren (Formular, Galerie, WhatsApp, Reviews)
@@ -62,6 +62,6 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Layout | 0/1 | Not started | - |
+| 1. Foundation & Layout | 1/1 | Complete | 2026-01-16 |
 | 2. Features & Content | 0/2 | Not started | - |
 | 3. Polish & Compliance | 0/1 | Not started | - |

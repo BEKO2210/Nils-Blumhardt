@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-01-16)
 
 **Core value:** Kunden sollen in unter 30 Sekunden verstehen, was der Betrieb macht, und sofort Kontakt aufnehmen können.
-**Current focus:** Phase 1 - Foundation & Layout
+**Current focus:** Phase 2 - Features & Content
 
 ## Current Position
 
-Phase: 1 of 3 (Foundation & Layout)
-Plan: 01-01 complete
-Status: In progress
-Last activity: 2026-01-16 - Completed 01-01-PLAN.md (HTML & CSS Foundation)
+Phase: 2 of 3 (Features & Content)
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-01-16 - Phase 1 complete (verified)
 
 Progress: [===-------] 33%
 
